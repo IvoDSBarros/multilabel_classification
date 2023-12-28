@@ -1,6 +1,6 @@
 # Multilabel classification task on rock news articles
 # Overview
-Rose from a previous rule-based text classification model, an hybrid multilabel classifier was developed to assign topic labels to a dataset of rock news headlines. This repository presents the steps implemented to develop the multilabel classification task. Several classifiers were tested including the ones following the problem transformation approach and the MultiOutputClassifier.
+Based upon a previous rule-based text classification model, an hybrid multilabel classifier was developed to assign topic labels to a dataset of rock news headlines, aiming to explore this variant of the classification problem and enhance its accuracy. This repository presents the steps implemented to develop the multilabel classification task. Several classifiers were tested including the ones following the problem transformation approach and the MultiOutputClassifier.
 
 # Exploratory data analysis (EDA)
 + The number of labels for which a headline can be assigned ranges from 1 to 7 (see Chart 1).
