@@ -12,3 +12,5 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + Most topic labels tend to co-occur with another label rather than being associated with multiple labels or appearing as a single label (see Chart 2).
 + Exceptions to this pattern include 'song', 'death' or 'cover', which tend to appear as single labels, and 'video' and 'single' which are more associated with multiple labels (see Chart 2).
 + Strong correlations are observed among pairs of labels such as ['tour', 'announce'], ['album', 'announce'], ['album', 'release'], ['single', 'release'], and ['video', 'release'] (see Chart 3).
+
+![]()
