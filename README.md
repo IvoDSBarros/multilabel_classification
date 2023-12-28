@@ -17,4 +17,4 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/9e292a11864c84c5a8d289b6ea6f2e7b26ac8334/png/eda_bar.png)
 
-![](https://github.com/IvoDSBarros/multilabel_classification/blob/e98a5697d1cf6451b7c01bb0d69bac152d5f0fcf/png/eda_histogram.png)
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/c23aff2ac9a5af021db93f38360b504db29c9041/png/eda_heatmap.png)
