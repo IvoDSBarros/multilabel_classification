@@ -19,7 +19,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 <br>
 
-**Figure 2:**
+**Figure 2: Count of topic labels**
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/9e292a11864c84c5a8d289b6ea6f2e7b26ac8334/png/eda_bar.png)
 
 <br>
