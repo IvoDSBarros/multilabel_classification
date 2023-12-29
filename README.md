@@ -15,7 +15,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 <br>
 
 **Figure 1: Distribution of the number of topic labels**
-![]()
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/6d6f8abcc8819ec7b65892a784021105a6e12da5/png/eda_histogram.png)
 
 <br>
 
