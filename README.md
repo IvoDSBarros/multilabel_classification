@@ -31,7 +31,4 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 <br>
 
 **Figure 3: Co-occurrence of topic labels**
-
-<br>
-
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/4bf018bf4d9fd4b22ac773e0d95a3e6944e8832d/png/eda_heatmap.png)
