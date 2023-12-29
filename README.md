@@ -18,7 +18,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 <br>
 
-![]()
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/30adfe717ba17bf6d367985d50097785d17851fb/png/eda_histogram.png)
 
 <br>
 
