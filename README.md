@@ -13,11 +13,16 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + Exceptions to this pattern include 'song', 'death' or 'cover', which tend to appear as single labels, and 'video' and 'single' which are more associated with multiple labels (see Figure 2).
 + Strong correlations are observed among pairs of labels such as ['tour', 'announce'], ['album', 'announce'], ['album', 'release'], ['single', 'release'] and ['video', 'release'] (see Figure 3).
 <br>
+
 **Figure 1: Distribution of **
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/e98a5697d1cf6451b7c01bb0d69bac152d5f0fcf/png/eda_histogram.png)
+
 <br>
+
 **Figure 2:**
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/9e292a11864c84c5a8d289b6ea6f2e7b26ac8334/png/eda_bar.png)
+
 <br>
+
 **Figure 3:**
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/c23aff2ac9a5af021db93f38360b504db29c9041/png/eda_heatmap.png)
