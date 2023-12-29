@@ -14,7 +14,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + Strong correlations are observed among pairs of labels such as ['tour', 'announce'], ['album', 'announce'], ['album', 'release'], ['single', 'release'] and ['video', 'release'] (see Figure 3).
 <br>
 
-**Figure 1: Distribution of **
+**Figure 1: Distribution of topic labels by news headlines**
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/e98a5697d1cf6451b7c01bb0d69bac152d5f0fcf/png/eda_histogram.png)
 
 <br>
