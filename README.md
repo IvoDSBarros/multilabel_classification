@@ -20,7 +20,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 <br>
 
 **Figure 2: Frequency of topic labels and respective co-occurrence**
-![]()
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/06f8f39003d93c910868948cf6f3f6f32f7e5714/png/eda_bar.png)
 
 <br>
 
