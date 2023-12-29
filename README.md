@@ -4,7 +4,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 # Exploratory data analysis
 + The dataset contains 20.000 headlines and the average number of labels per headline stands at 1.45 (see Table 1).
-+ 36 predefined labels were derived from rule-based text classification model (see Table 1).
++ 36 predefined labels were derived from the rule-based text classification model (see Table 1).
 + The number of labels for which a headline can be assigned ranges from 1 to 7 (see Figure 1).
 + Two-thirds of the headlines are assigned to a single topic label, while nearly one-fourth are tagged with two topic labels (see Figure 1).
 + The cumulative percentage of headlines assigned to more than three labels is not significant (see Figure 1).
