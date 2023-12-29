@@ -15,14 +15,14 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 <br>
 
 **Figure 1: Distribution of the number of topic labels**
-![](https://github.com/IvoDSBarros/multilabel_classification/blob/e98a5697d1cf6451b7c01bb0d69bac152d5f0fcf/png/eda_histogram.png)
+![]()
 
 <br>
 
 **Figure 2: Frequency of topic labels and respective co-occurrence**
-![](https://github.com/IvoDSBarros/multilabel_classification/blob/9e292a11864c84c5a8d289b6ea6f2e7b26ac8334/png/eda_bar.png)
+![]()
 
 <br>
 
 **Figure 3: Co-occurrence of topic labels**
-![](https://github.com/IvoDSBarros/multilabel_classification/blob/c23aff2ac9a5af021db93f38360b504db29c9041/png/eda_heatmap.png)
+![]()
