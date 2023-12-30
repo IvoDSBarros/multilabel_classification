@@ -30,7 +30,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 <br>
 
-**Figure 2: Frequency of topic labels and respective co-occurrence**
+**Figure 2: Frequency distribution of topic labels and respective co-occurrence**
 
 <br>
 
