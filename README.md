@@ -5,7 +5,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 <details>
 <summary> Table of Contents </summary>
 
-1. [Exploratory data analysis](#exploratory-data-analysis)
+1. [Exploratory data analysis](#1.-exploratory-data-analysis)
 2. [Rule-based text classification](#rule-based-text-classification)
 3. [Topic modelling experiments](#topic-modelling-experiments)
     + [LDA model using Scikit-learn](#1-lda-model-using-scikit-learn)
@@ -15,7 +15,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 </details>
 
-# Exploratory data analysis
+# 1. Exploratory data analysis
 + The dataset contains 20.000 headlines and the average number of labels per headline stands at 1.45 (see Table 1).
 + 36 predefined labels were derived from the rule-based text classification model (see Table 1).
 + The number of labels for which a headline can be assigned ranges from 1 to 7 (see Figure 1).
@@ -44,6 +44,9 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 <br>
 
 **Figure 2: Frequency distribution of topic labels and respective co-occurrence**
+
+<br>
+
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/06f8f39003d93c910868948cf6f3f6f32f7e5714/png/eda_bar.png)
 
 <br>
