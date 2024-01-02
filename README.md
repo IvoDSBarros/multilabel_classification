@@ -63,15 +63,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 ## 2. About the methodology
 + The multilabel classification task was built from a rule-based text classification model with the purpose of identifying keywords and assign both topic labels and publication type categories (details about the rule-based text classification model can be found [here](https://github.com/IvoDSBarros/rock-is-not-dead_nlp-experiments-on-rock-news-articles/blob/main/README.md#rule-based-text-classification)). Actually, the keywords of the manual rule-based model were the foundation to assign topic labels to headlines. Therefore, instead of using directly the derived topic labels, the multilabel classifier is based on the keywords.
 + In order to provide a *"well-balanced distribution of (...) label relations"*, an interactive stratification was implemented to split the dataset into train/test sets (Szymański, P., Kajdanowicz, T., 2016). The test size was set at 0.2.
-+ No re-sampling or re-weighting methods were adopted to deal with class imbalance as both *"result in oversampling of common labels"* (Huang, Y et al., 2021).
-
-
-
-addressing the class imbalance problem, however, they are not effective
-when there is label dependency besides class
-imbalance because they result in oversampling
-of common labels
-
++ No re-sampling or re-weighting methods were adopted to deal with class imbalance as both *"result in oversampling of common labels"* (Huang, Y. et al., 2021).
 
 
 <div align = "right">    
