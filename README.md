@@ -35,23 +35,18 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 <br>
 
 **Figure 2: Frequency distribution of topic labels and respective co-occurrence**
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/06f8f39003d93c910868948cf6f3f6f32f7e5714/png/eda_bar.png)
 
 <br>
-
-![](https://github.com/IvoDSBarros/multilabel_classification/blob/30adfe717ba17bf6d367985d50097785d17851fb/png/eda_histogram.png)
-
-<br>
-
 
 **Figure 3: Co-occurrence of topic labels**
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/4bf018bf4d9fd4b22ac773e0d95a3e6944e8832d/png/eda_heatmap.png)
 
 <br>
 
-![](https://github.com/IvoDSBarros/multilabel_classification/blob/30adfe717ba17bf6d367985d50097785d17851fb/png/eda_histogram.png)
-
-<br>
-
-
+<div align = "right">    
+  <a href="#overview">(back to top)</a>
+</div>
 
 ## References
 + [Szymański, P., Kajdanowicz, T. (2016) A scikit-based Python environment for performing multi-label classification. Journal of Machine Learning Research, 1, 1-15.](https://arxiv.org/abs/1702.01460)
@@ -71,10 +66,3 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 <div align = "right">    
   <a href="#overview">(back to top)</a>
 </div>
-
-![](https://github.com/IvoDSBarros/multilabel_classification/blob/06f8f39003d93c910868948cf6f3f6f32f7e5714/png/eda_bar.png)
-
-<br>
-
-**Figure 3: Co-occurrence of topic labels**
-![](https://github.com/IvoDSBarros/multilabel_classification/blob/4bf018bf4d9fd4b22ac773e0d95a3e6944e8832d/png/eda_heatmap.png)
