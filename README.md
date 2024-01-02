@@ -38,9 +38,20 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 <br>
 
-<div align = "right">    
-  <a href="#overview">(back to top)</a>
-</div>
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/30adfe717ba17bf6d367985d50097785d17851fb/png/eda_histogram.png)
+
+<br>
+
+
+**Figure 3: Co-occurrence of topic labels**
+
+<br>
+
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/30adfe717ba17bf6d367985d50097785d17851fb/png/eda_histogram.png)
+
+<br>
+
+
 
 ## References
 + [Szymański, P., Kajdanowicz, T. (2016) A scikit-based Python environment for performing multi-label classification. Journal of Machine Learning Research, 1, 1-15.](https://arxiv.org/abs/1702.01460)
