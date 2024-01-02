@@ -6,7 +6,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 <summary> Table of Contents </summary>
 
 1. [Exploratory data analysis](#1-exploratory-data-analysis)
-2. [About the methodology](#2-about-the-metodology)
+2. [About the methodology](#2-about-the-methodology)
 3. [Topic modelling experiments](#topic-modelling-experiments)
     + [LDA model using Scikit-learn](#1-lda-model-using-scikit-learn)
     + [LDA model using Gensim](#2-lda-model-using-gensim)
