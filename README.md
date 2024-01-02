@@ -2,6 +2,10 @@
 # Overview
 Based upon a previous rule-based text classification model, an hybrid multilabel classifier was developed to assign topic labels to a dataset of rock news headlines, aiming to explore this variant of the classification problem and enhance its accuracy. This repository presents the steps implemented to develop the multilabel classification task. Several classifiers were tested including the ones following the problem transformation approach and the MultiOutputClassifier.
 
+<div align = "right">    
+  <a href="#overview">(back to top)</a>
+</div>
+
 # Exploratory data analysis
 + The dataset contains 20.000 headlines, whereas the average number of labels per headline stands at 1.45 (see Table 1).
 + 36 predefined labels were derived from the rule-based text classification model (see Table 1).
@@ -33,6 +37,29 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 **Figure 2: Frequency distribution of topic labels and respective co-occurrence**
 
 <br>
+
+<div align = "right">    
+  <a href="#overview">(back to top)</a>
+</div>
+
+## References
++ [Szymański, P., Kajdanowicz, T. (2016) A scikit-based Python environment for performing multi-label classification. Journal of Machine Learning Research, 1, 1-15.](https://arxiv.org/abs/1702.01460)
+
+
+
++ [Chang, J., Boyd-Graber, J., Gerrish, S., Wang, C., Blei, D. (2009, December) Reading Tea Leaves: How Humans Interpret Topic Models. NIPS'09: Proceedings of the 22nd International Conference on Neural Information Processing Systems, 288–296.](https://proceedings.neurips.cc/paper/2009/file/f92586a25bb3145facd64ab20fd554ff-Paper.pdf)
++ [Kelechava, M. (2019) Using LDA Topic Models as a Classification Model Input. Predicting Future Yelp Review Sentiment. Towards Data Science.](https://towardsdatascience.com/unsupervised-nlp-topic-models-as-a-supervised-learning-input-cf8ee9e5cf28)
++ [Řehůřek, R. (2022a) models.ensembelda – Ensemble Latent Dirichlet Allocation. https://radimrehurek.com/gensim/models/ensemblelda.html](https://radimrehurek.com/gensim/models/ensemblelda.html)
++ [Řehůřek, R. (2022b) Ensemble LDA. https://radimrehurek.com/gensim/auto_examples/tutorials/run_ensemblelda.html](https://radimrehurek.com/gensim/auto_examples/tutorials/run_ensemblelda.html)
++ [Roeder, M., Both, A., Hinneburg, A. (2015, February). Exploring the Space of Topic Coherence Measures. WSDM '15: Proceedings of the Eighth ACM International Conference on Web Search and Data Mining, 399–408. https://doi.org/10.1145/2684822.2685324](http://svn.aksw.org/papers/2015/WSDM_Topic_Evaluation/public.pdf)
++ [Roeder, M. (2018) Not being able to replicate coherence scores from paper #13](https://github.com/dice-group/Palmetto/issues/13)
++ [Sievert, C., Shirley, K. (2014, June) LDAvis: A method for visualizing and interpreting topic. Proceedings of the Workshop on Interactive Language Learning, Visualization, and Interfaces, 63–70.](https://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf) 
++ [Trenquier, H. (2018) Improving Semantic Quality of Topic Models for Forensic Investigations. University of Amsterdam, MSc System and Network Engineering Research Project 2.](https://rp.os3.nl/2017-2018/p76/report.pdf)
++ [Yadav, A., Patel, A., Shah, M. (2021) A comprehensive review on resolving ambiguities in natural language processing. AI Open, Volume 2, Pages 85-92](https://www.sciencedirect.com/science/article/pii/S2666651021000127)
+
+<div align = "right">    
+  <a href="#overview">(back to top)</a>
+</div>
 
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/06f8f39003d93c910868948cf6f3f6f32f7e5714/png/eda_bar.png)
 
