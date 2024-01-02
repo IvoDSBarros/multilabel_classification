@@ -6,7 +6,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 <summary> Table of Contents </summary>
 
 1. [Exploratory data analysis](#1-exploratory-data-analysis)
-2. [Rule-based text classification](#rule-based-text-classification)
+2. [About the methodology](#2-about-the-metodology)
 3. [Topic modelling experiments](#topic-modelling-experiments)
     + [LDA model using Scikit-learn](#1-lda-model-using-scikit-learn)
     + [LDA model using Gensim](#2-lda-model-using-gensim)
@@ -55,6 +55,14 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/4bf018bf4d9fd4b22ac773e0d95a3e6944e8832d/png/eda_heatmap.png)
 
 <br>
+
+<div align = "right">    
+  <a href="#overview">(back to top)</a>
+</div>
+
+## 2. About the methodology
++ The multilabel classification task was built from a rule-based text classification model with the purpose of identifying keywords and assign both topic labels and publication type categories (details about the rule-based text classification model can be found here: ). Actually, the keywords of the manual rule-based model were the foundation to assign topic labels to headlines. Therefore, instead of using directly the derived topic labels, the multilabel classifier is based on the keywords.
++ In order to provide a "well-balanced distribution of (...) label relations", an interactive stratification was implemented to split data into train(80)/test(20) sets .
 
 <div align = "right">    
   <a href="#overview">(back to top)</a>
