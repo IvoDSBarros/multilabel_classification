@@ -2,12 +2,21 @@
 # Overview
 Based upon a previous rule-based text classification model, an hybrid multilabel classifier was developed to assign topic labels to a dataset of rock news headlines, aiming to explore this variant of the classification problem and enhance its accuracy. This repository presents the steps implemented to develop the multilabel classification task. Several classifiers were tested including the ones following the problem transformation approach and the MultiOutputClassifier.
 
-<div align = "right">    
-  <a href="#overview">(back to top)</a>
-</div>
+<details>
+<summary> Table of Contents </summary>
+
+1. [Exploratory data analysis](#exploratory-data-analysis)
+2. [Rule-based text classification](#rule-based-text-classification)
+3. [Topic modelling experiments](#topic-modelling-experiments)
+    + [LDA model using Scikit-learn](#1-lda-model-using-scikit-learn)
+    + [LDA model using Gensim](#2-lda-model-using-gensim)
+4. [Rule-based text classification Vs. Machine Learning classification: final thoughts and further research](#rule-based-text-classification-vs-machine-learning-classification-final-thoughts-and-further-research)
+6. [References](#references)
+
+</details>
 
 # Exploratory data analysis
-+ The dataset contains 20.000 headlines, whereas the average number of labels per headline stands at 1.45 (see Table 1).
++ The dataset contains 20.000 headlines and the average number of labels per headline stands at 1.45 (see Table 1).
 + 36 predefined labels were derived from the rule-based text classification model (see Table 1).
 + The number of labels for which a headline can be assigned ranges from 1 to 7 (see Figure 1).
 + Two-thirds of the headlines are assigned to a single topic label, while nearly one-fourth are tagged with two topic labels (see Figure 1).
