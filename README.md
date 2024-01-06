@@ -66,6 +66,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + No re-sampling or re-weighting methods were adopted to deal with class imbalance as both *"result in oversampling of common labels"* (Huang, Y. et al., 2021).
 + Several inherently robust algorithms to imbalanced datasets were tested including tree-based and ensemble methods (Ganganwar, 2012; Mahani, 2022; Mulugeta, G. et al., 2023).
 + A cost-sensitive learning experiment was implemented by adjusting the "class_weight" parameter of a tree-based classifier with no accuracy improvement.
++ Emphasis was placed on more informative evaluation metrics for imbalanced datasets such as Micro-average F1-score.
 
 <div align = "right">    
   <a href="#overview">(back to top)</a>
