@@ -7,7 +7,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 1. [Exploratory data analysis](#1-exploratory-data-analysis)
 2. [About the methodology](#2-about-the-methodology)
-3. [Results](#results)
+3. [Results](#3-results)
     + [LDA model using Scikit-learn](#1-lda-model-using-scikit-learn)
     + [LDA model using Gensim](#2-lda-model-using-gensim)
 4. [Rule-based text classification Vs. Machine Learning classification: final thoughts and further research](#rule-based-text-classification-vs-machine-learning-classification-final-thoughts-and-further-research)
