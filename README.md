@@ -64,6 +64,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + The multilabel classification task was built from a rule-based text classification model with the purpose of identifying keywords and assign both topic labels and publication type categories (details about the rule-based text classification model can be found [here](https://github.com/IvoDSBarros/rock-is-not-dead_nlp-experiments-on-rock-news-articles/blob/main/README.md#rule-based-text-classification)). Actually, the keywords of the manual rule-based model were the foundation to assign topic labels to headlines. Therefore, instead of using directly the derived topic labels, the multilabel classifier is based on the keywords.
 + In order to provide a *"well-balanced distribution of (...) label relations"*, an interactive stratification was implemented to split the dataset into train/test sets (Szymański, P., Kajdanowicz, T., 2016). The test size was set at 0.2.
 + No re-sampling or re-weighting methods were adopted to deal with class imbalance as both *"result in oversampling of common labels"* (Huang, Y. et al., 2021).
++ Several inherently robust algorithms to imbalanced datasets were tested including decision trees and ensemble methods (Ganganwar, 2012).
 
 
 <div align = "right">    
@@ -71,6 +72,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 </div>
 
 ## References
++ [Ganganwar, V. (2012) An overview of classification algorithms for imbalanced datasets. International Journal of Emerging Technology and Advanced Engineering. ISSN 2250-2459, Volume 2, Issue 4.](https://www.researchgate.net/profile/Vaishali-Ganganwar/publication/292018027_An_overview_of_classification_algorithms_for_imbalanced_datasets/links/58c7707a458515478dc4c68b/An-overview-of-classification-algorithms-for-imbalanced-datasets.pdf)
 + [Huang, Y., Giledereli, B., Köksal, A., Özgür, A., Ozkirimli, E. (2021) Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution.](https://arxiv.org/abs/2109.04712)
 + [Szymański, P., Kajdanowicz, T. (2016) A scikit-based Python environment for performing multi-label classification. Journal of Machine Learning Research, 1, 1-15.](https://arxiv.org/abs/1702.01460)
 
