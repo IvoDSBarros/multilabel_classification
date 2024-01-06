@@ -66,7 +66,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + No re-sampling or re-weighting methods were adopted to deal with class imbalance as both *"result in oversampling of common labels"* (Huang, Y. et al., 2021).
 + Several inherently robust algorithms to imbalanced datasets were tested including tree-based and ensemble methods (Ganganwar, 2012; Mahani, 2022; Mulugeta, G. et al., 2023).
 + A cost-sensitive learning experiment was implemented by adjusting the "class_weight" parameter of a tree-based classifier with no accuracy improvement.
-+ Emphasis was placed on more informative evaluation metrics for imbalanced datasets such as Micro-average F1-score.
++ Emphasis was placed on more informative evaluation metrics for imbalanced datasets such as Micro-average F1-score which aggregates the contributions of *"all the units together, without taking into consideration possible differences between classes"* (Grandini et al., 2020).
 
 <div align = "right">    
   <a href="#overview">(back to top)</a>
@@ -81,15 +81,11 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 ## References
 + [Ganganwar, V. (2012) An overview of classification algorithms for imbalanced datasets. International Journal of Emerging Technology and Advanced Engineering. ISSN 2250-2459, Volume 2, Issue 4.](https://www.researchgate.net/profile/Vaishali-Ganganwar/publication/292018027_An_overview_of_classification_algorithms_for_imbalanced_datasets/links/58c7707a458515478dc4c68b/An-overview-of-classification-algorithms-for-imbalanced-datasets.pdf)
++ [Grandini, M., Bagli, E., Visani, G. (2020) Metrics for multi-class classification: an overview.](https://arxiv.org/pdf/2008.05756.pdf)
 + [Huang, Y., Giledereli, B., Köksal, A., Özgür, A., Ozkirimli, E. (2021) Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution.](https://arxiv.org/abs/2109.04712)
 + [Mahani, A. (2022) Classification in Multi-Label Datasets in Information Systems Management.](https://www.intechopen.com/chapters/85471)
 + [Mulugeta, G., Zewotir, T., Tegegne, A., Juhar, L., Muleta, M. (2023) Classification of imbalanced data using machine learning algorithms to predict the risk of renal graft failures in Ethiopia. BMC Medical Informatics and Decision Making, Vol. 23, Nr. 98.](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-023-02185-5)
 + [Szymański, P., Kajdanowicz, T. (2016) A scikit-based Python environment for performing multi-label classification. Journal of Machine Learning Research, 1, 1-15.](https://arxiv.org/abs/1702.01460)
-
-
-
-
-
 
 <div align = "right">    
   <a href="#overview">(back to top)</a>
