@@ -65,6 +65,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + In order to provide a *"well-balanced distribution of (...) label relations"*, an iteractive stratification was implemented to split the dataset into train/test sets (Szymański, P., Kajdanowicz, T., 2016). The test size was set at 0.2.
 + No re-sampling or re-weighting methods were adopted to deal with class imbalance as both *"result in oversampling of common labels"* (Huang, Y. et al., 2021).
 + Several inherently robust algorithms to imbalanced datasets were tested including tree-based and ensemble methods (Ganganwar, 2012; Mahani, 2022; Mulugeta, G. et al., 2023).
++ A cost-sensitive learning experiment was implemented by adjusting the "class_weight" parameter of a tree-based classifier with no accuracy improvement.
 
 <div align = "right">    
   <a href="#overview">(back to top)</a>
