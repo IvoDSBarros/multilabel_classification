@@ -74,6 +74,9 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 ## 3. Results
 
+**Table 2: Evaluation metrics by classifier**
+
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/b423e99c46ad36e92e79e52b5177f9d5913b3d60/png/evaluation_metrics.PNG)
 
 <div align = "right">    
   <a href="#overview">(back to top)</a>
