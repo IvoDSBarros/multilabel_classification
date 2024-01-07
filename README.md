@@ -31,7 +31,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 **Table 1: Dataset descriptive statistics**
 
-![]()
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/b2904c6164f0ad19a792c85d5071a6162e78601f/png/eda_desc_statistics.PNG)
 
 <br>
 
