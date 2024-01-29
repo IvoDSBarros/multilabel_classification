@@ -68,7 +68,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + Emphasis was placed on inherently robust algorithms for imbalanced datasets, particularly tree-based and ensemble methods (Ganganwar, 2012; Mahani, 2022; Mulugeta et al., 2023).
 + Hyperparameter optimization was conducted using Grid Search for models showing high performance with default parameters.
 + A cost-sensitive learning experiment was carried out by adjusting the "class_weight" parameter of a tree-based classifier. However, no significant impact on the model's performance was observed.
-+ To assess model performance on imbalanced datasets, informative evaluation metrics such as the Micro-average F1-score were employed. This metric aggregates the contributions of *"all the units together, without taking into consideration possible differences between classes"* (Grandini et al., 2020).
++ To assess model performance, more informative evaluation metrics for imbalanced datasets such as the Micro-average F1-score were employed. This metric aggregates the contributions of *"all the units together, without taking into consideration possible differences between classes"* (Grandini et al., 2020).
 
 <div align = "right">    
   <a href="#overview">(back to top)</a>
