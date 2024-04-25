@@ -29,13 +29,13 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + Strong correlations are observed among pairs of labels such as ['tour', 'announce'], ['album', 'announce'], ['album', 'release'], ['single', 'release'] and ['video', 'release'] (see Figure 3).
 <br>
 
-**Table 1: Dataset descriptive statistics**
+**Table 1. Dataset descriptive statistics**
 
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/b2904c6164f0ad19a792c85d5071a6162e78601f/png/eda_desc_statistics.PNG)
 
 <br>
 
-**Figure 1: Distribution of the number of topic labels**
+**Figure 1. Distribution of the number of topic labels**
 
 <br>
 
@@ -43,7 +43,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 <br>
 
-**Figure 2: Frequency distribution of topic labels and respective co-occurrence**
+**Figure 2. Frequency distribution of topic labels and respective co-occurrence**
 
 <br>
 
@@ -51,7 +51,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 <br>
 
-**Figure 3: Co-occurrence of topic labels**
+**Figure 3. Co-occurrence of topic labels**
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/4bf018bf4d9fd4b22ac773e0d95a3e6944e8832d/png/eda_heatmap.png)
 
 <br>
@@ -77,12 +77,12 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 ## 3. Results
 
-**Table 2: Evaluation metrics by classifier**
+**Table 2. Evaluation metrics by classifier**
 
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/b423e99c46ad36e92e79e52b5177f9d5913b3d60/png/evaluation_metrics.PNG)
 
 
-**Figure 4: Tuned models vs. Base models**
+**Figure 4. Tuned models vs. Base models: performance evaluation**
 
 ![]()
 
