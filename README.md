@@ -69,6 +69,11 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + Hyperparameter optimization was conducted using Grid Search for base models showing high performance.
 + A cost-sensitive learning experiment was carried out by adjusting the "class_weight" parameter of a tree-based classifier. However, no significant impact on the model's performance was observed.
 + Several methodologies were experimented to optimize hyperparameters in Gradient Boosting, including Grid search and Randomized search using balanced subsets of 6000 records, Random over-sampling, Random under-sampling and Class weighting. Despite these efforts, the results were not satisfatory. The inherent characteristics of the dataset, where 48% (435 out of 906) of label combinations consist of only one sample, coupled with the complexity of the Gradient Boosting algorithm, which involves a multitude of parameters (Guan et al., 2023), led to unsucessful optimization. The limited size of the training dataset often presents a significant challenge in machine learning optimization, suggesting that expanding the text corpus by gathering additional news headlines could enrich the model with more diverse examples to learn from.
++ After optimization, the selected base models were fine-tuned with the following hyperparameters:
+++ a) Logistic Regression ("C": 14.0; "penalty": l2; "solver": "sag; max_iter": 1000);
+++ Decision Tree ("criterion": gini; "max_depth": None; "max_leaf_nodes": None; "min_samples_split": 2), Random Forest ("bootstrap": False; "max_depth": None; "max_features": None; "max_leaf_nodes": None; "n_estimators":  50), AdaBoost ("algorithm": SAMME.R; "learning_rate": 1.04; "n_estimators": 50) and Extra Trees ("criterion": gini; "n_estimators": 20).
+
+  
 + To assess model performance, more informative evaluation metrics for imbalanced datasets such as the Micro-average F1-score were employed. This metric aggregates the contributions of *"all the units together, without taking into consideration possible differences between classes"* (Grandini et al., 2020).
 
 <div align = "right">    
