@@ -76,6 +76,11 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 </div>
 
 ## 3. Results
++ Multioutput algorithms show significantly higher Micro-average F1-score values compared to problem transformation algorithms (see Table 2).
++ Consistent with findings in academic literature (Ganganwar, 2012; Mahani, 2022; Mulugeta et al., 2023), tree-based models (Decision Tree) and ensemble methods (Random Forest, Extra Trees, Ada Boost, Gradient Boosting) demonstrate inherent robustness for imbalanced datasets, outperforming other algorithms as indicated by Micro-average F1-score (see Table 2).
++ Adaboost stands out as the top performer, showing a Micro-average F1-score of 0.989  (see Table 2).
++ Following hyperparameter tuning, slight performance enhancements are observed for Logistic Regression (both Classifier Chain and Binary Relevance), Decision Tree, and Random Forest (see Figure 4). 
+<br>
 
 **Table 2. Evaluation metrics by classifier**
 
