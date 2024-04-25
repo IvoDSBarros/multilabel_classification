@@ -82,9 +82,9 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 ![](https://github.com/IvoDSBarros/multilabel_classification/blob/b423e99c46ad36e92e79e52b5177f9d5913b3d60/png/evaluation_metrics.PNG)
 
 
-**Figure 4: Tuned models vs. Default parameters models**
+**Figure 4: Tuned models vs. Base models**
 
-![](https://github.com/IvoDSBarros/multilabel_classification/blob/317ed1a1321710445ebc60eaca9f0cbfc0ad0f18/png/dumbell_eval_metrics_tuned_models.PNG)
+![]()
 
 <div align = "right">    
   <a href="#overview">(back to top)</a>
