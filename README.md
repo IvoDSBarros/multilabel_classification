@@ -101,6 +101,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 + [Grandini, M., Bagli, E., Visani, G. (2020) Metrics for multi-class classification: an overview.](https://arxiv.org/pdf/2008.05756.pdf)
 + [Guan, H., Xiao, Y., Li, J., Liu, Y., Bai1, G. (2023) A Comprehensive Study of Real-World Bugs in Machine Learning Model Optimization.](https://baigd.github.io/files/ICSE23-MOB.pdf)
 + [Huang, Y., Giledereli, B., Köksal, A., Özgür, A., Ozkirimli, E. (2021) Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution.](https://arxiv.org/abs/2109.04712)
++ [Jurafsky, D., Martin, J. (2024) Speech and Language Processing.](https://web.stanford.edu/~jurafsky/slp3/5.pdf)
 + [Mahani, A. (2022) Classification in Multi-Label Datasets in Information Systems Management.](https://www.intechopen.com/chapters/85471)
 + [Mulugeta, G., Zewotir, T., Tegegne, A., Juhar, L., Muleta, M. (2023) Classification of imbalanced data using machine learning algorithms to predict the risk of renal graft failures in Ethiopia. BMC Medical Informatics and Decision Making, Vol. 23, Nr. 98.](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-023-02185-5)
 + [Szymański, P., Kajdanowicz, T. (2016) A scikit-based Python environment for performing multi-label classification. Journal of Machine Learning Research, 1, 1-15.](https://arxiv.org/abs/1702.01460)
