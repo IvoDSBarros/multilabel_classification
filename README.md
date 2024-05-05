@@ -91,7 +91,7 @@ Based upon a previous rule-based text classification model, an hybrid multilabel
 
 **Figure 4. Tuned models vs. Base models: performance evaluation**
 
-![]()
+![](https://github.com/IvoDSBarros/multilabel_classification/blob/08dc88b34976c7b7baf658d366efb1c9fa4340be/png/dumbell_eval_metrics_tuned_models.PNG)
 
 <div align = "right">    
   <a href="#overview">(back to top)</a>
