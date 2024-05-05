@@ -1,6 +1,6 @@
 # Multilabel classification task on rock news articles
 # Overview
-Based upon a previous rule-based text classification model, an hybrid multilabel classifier was developed to assign topic labels to a dataset of rock news headlines, aiming to explore this variant of the classification problem and enhance its accuracy. This repository presents the steps implemented to develop the multilabel classification task. Several classifiers were tested including the ones following the problem transformation approach and the MultiOutputClassifier.
+Based upon a previous rule-based text classification model, an hybrid multilabel classifier was developed to assign topic labels to a dataset of rock news headlines, aiming to explore this variant of the classification problem and enhance its accuracy. This repository presents the steps implemented to develop the multilabel classification task. Several classifiers were tested including the ones following the problem transformation approach and the MultiOutputClassifier. In summary, results demonstrated that multioutput algorithms outperformed problem transformation algorithms, achieving significantly higher Micro-average F1-score values, with tree-based models and ensemble methods showing inherent robustness for imbalanced datasets.
 
 <details>
 <summary> Table of Contents </summary>
