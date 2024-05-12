@@ -1,6 +1,6 @@
 '''
 Rock News NLP
-Multi-label Classification: hyperparameter tuning on different estimators using a multi-output classification approach
+Multi-label Classification: hyperparameter tuning on estimators using a multi-output classification approach
 Created on Mon Jan  1 14:16:06 2024
 @author: IvoBarros
 '''
