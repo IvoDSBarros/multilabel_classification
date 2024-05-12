@@ -13,7 +13,8 @@ import sys
 from sklearn.preprocessing import MultiLabelBinarizer
 
 path_to_class = os.path.dirname(os.path.abspath(sys.argv[0]))
-class_directory = r'C:\Users\HP\Desktop\python\projects\github_rock_news_nlp\src'
+class_directory = 'https://github.com/IvoDSBarros/rock-is-not-dead_nlp-experiments-on-rock-news-articles/blob/main/src'
+
 class_file_dir = os.path.join(path_to_class, class_directory)
 sys.path.append(class_file_dir)
 from rock_news_nlp_class_text_preprocessing import text_preprocessing as tpp
