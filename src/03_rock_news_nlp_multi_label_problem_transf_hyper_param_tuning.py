@@ -162,12 +162,3 @@ for k, v in {"X_train": X_train, "X_test": X_test, "y_train": y_train, "y_test":
 df_best_params_class_lr = pd.concat([df_bin_rel_best_params, df_class_chain_best_params],axis=0).reset_index(drop=True)
 df_best_params_class_lr.to_csv(f'{path_output_csv}/best_params_class_lr.csv', header=True, index=False, encoding='utf-8',sep=';')
 print("...it has been successfully executed in %0.1fs." % (time() - t_start))
-
-#################################################################################################################
-# # df_multi_label['title_clean'] = df_multi_label['title_clean'].fillna('')
-# # df_ref_full_pk = df_multi_label[['full_pk','title_clean']]
-# # y_cols = [col for col in df_multi_label.columns if col not in ['title','title_clean','full_pk']]
-# # balanced_subset = utils_multi_label.balanced_subset(df_multi_label,y_cols,0.30335)
-# # balanced_subset = balanced_subset.drop(columns=['id_combination'])
-# # X_balanced_subset = np.array(balanced_subset['full_pk']).reshape(-1,1)
-# # y_balanced_subset = balanced_subset[(y_cols)].copy().to_numpy()
