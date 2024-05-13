@@ -52,34 +52,6 @@ def custom_multilabel_data_strat(df,feature,feature_ref,labels,test_size):
     
     return X_train, y_train, X_test, y_test, X_train_ref, y_train, X_test_ref
 
-# def balanced_subset(df, combination_cols, sample_size):
-#     """
-#     To create a balanced subset of data
-    
-#     Args:
-#         df : DataFrame
-#         combination_cols : list
-#         sample_size : float
-    
-#     Returns:
-#         DataFrame
-#     """  
-#     label_combinations = df[combination_cols].astype(str).agg('_'.join, axis=1)
-#     df['id_combination'] = pd.factorize(label_combinations)[0]
-#     proportions = df['id_combination'].value_counts(normalize=True)
-#     # ADJUSTED SAMPLE SIZE FOR EACH GROUP AND ROUND UP
-#     adjusted_sample_sizes = {group_id: math.ceil(sample_size * len(df) * proportion) for group_id, proportion in proportions.items()}
-
-#     balanced_samples = []
-#     for group_id, group_size in adjusted_sample_sizes.items():
-#         group = df[df['id_combination'] == group_id]
-#         group = shuffle(group, random_state=42)
-#         balanced_samples.append(group.head(group_size))
-
-#     df_balanced = pd.concat(balanced_samples, ignore_index=True)
-
-#     return df_balanced
-
 def balanced_subset(df,feature,feature_ref,labels,sample_size):
     """
     To create a balanced subset of data
@@ -115,7 +87,6 @@ def balanced_subset(df,feature,feature_ref,labels,sample_size):
 
     return df_ref_full_pk, X_balanced_subset, y_balanced_subset
 
-
 def create_df_best_params(dict_best_params,estimator,classifier):
     """
     To create a dataframe on the best parameters of a given classifier
@@ -136,40 +107,3 @@ def create_df_best_params(dict_best_params,estimator,classifier):
     df_best_params.insert(0, "Classifier", classifier, True)
 
     return df_best_params
-
-# def balanced_subset(df,combination_cols,sample_size):
-#     """
-#     To create a balanced subset of data
-    
-#     Args:
-#         df : DataFrame
-#         combination_cols : list
-#         sample_size : float
-    
-#     Returns:
-#         DataFrame
-#     """  
-#     # label_combinations = df[(combination_cols)].copy().apply(lambda x: '_'.join(map(str, x)), axis=1)
-#     # df['id_combination'] = pd.factorize(label_combinations)[0]
-#     # df_balanced = df.groupby('id_combination', group_keys=False).apply(lambda x: x.sample(frac=sample_size))
-#     # return df_balanced
-
-#     # Create a unique identifier for each combination of labels
-#     label_combinations = df[combination_cols].astype(str).agg('_'.join, axis=1)
-#     df['id_combination'] = pd.factorize(label_combinations)[0]
-
-#     # Create a balanced dataset by sampling a fraction of the data for each combination
-#     balanced_samples = []
-#     for _, group in df.groupby('id_combination'):
-#         if len(group) > 1:
-#             # If more than one sample, shuffle and take a fraction
-#             group = shuffle(group)
-#             balanced_samples.append(group.sample(frac=sample_size))
-#         else:
-#             # If only one sample, include it as is
-#             balanced_samples.append(group)
-
-#     # Concatenate the balanced samples
-#     df_balanced = pd.concat(balanced_samples, ignore_index=True)
-
-#     return df_balanced
